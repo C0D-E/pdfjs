@@ -16599,7 +16599,7 @@ initCom(PDFViewerApplication);
   PDFPrintServiceFactory.initGlobals(PDFViewerApplication);
 }
 {
-  const HOSTED_VIEWER_ORIGINS = new Set(["null", "http://mozilla.github.io", "https://mozilla.github.io", "https://pdfjs.control-center.xyz"]);
+  const HOSTED_VIEWER_ORIGINS = new Set(["null", "http://mozilla.github.io", "https://mozilla.github.io", "https://pdfjs.control-center.xyz", "https://pdfjs-5q3.pages.dev"]);
   var validateFileURL = function (file) {
     if (!file) {
       return;
